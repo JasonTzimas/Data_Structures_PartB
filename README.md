@@ -47,15 +47,23 @@ This project implements a simplified movie streaming service, categorizing movie
 
 ## Execution
 
-Run the program using the following command:
+First compile the .c code using the following command
 
 ```bash
-<executable> <input-file>
+gcc main.c Movies.c -o main
 ```
 
-- **Executable**: The name of the compiled program.
-- **Input File**: A file containing the sequence of events for the program to process.
+Then run the executable by running
 
+```bash
+main.exe <input_file> # for Windows
+```
+
+or
+
+```bash
+./main <input_file> # for Linux
+```
 ## Events and Operations
 
 ### Event List
